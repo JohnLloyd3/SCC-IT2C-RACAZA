@@ -1,14 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package racaza;
 
-/**
- *
- * @author johnlloyd
- */
-public class account {
+
+
+    public class account {
+    class Acc{
+        int id;
+        String FirstName;
+        String LastName;
+        String Email;
+        String Username;
+        String Password;
+        
+        Acc(int id, String FirstName, String LastName, String Email, String Username, String Password){
+            this.id = id;
+            this.FirstName = FirstName;
+            this.LastName = LastName;
+            this.Email = Email;
+            this.Username = Username;
+            this.Password = Password;
+            
+        }
+    }
     
 }
+    
+

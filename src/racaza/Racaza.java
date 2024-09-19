@@ -1,21 +1,52 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
+
 package racaza;
 
-/**
- *
- * @author johnlloyd
- */
+import java.util.Scanner;
+import java.text.NumberFormat; 
+  
+
 public class Racaza {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+//        NetPay np = new NetPay();
+//        np.getPay();
+//       
+//    }
+
+    
+//        Grades gr = new Grades();
+//        
+//        
+//        System.out.printf("%-10s %-10s %-10s %-10s %-10s %-10s %-10s %-10s\n",
+//                "Student ID", "Name", "Prelim", "Midterm", "Prefinal", "Final", "Average", "Remarks");
+//        
+//   
+//        gr.addGrades(1001, "Mike", 1.0, 1.0, 1.0, 1.0);
+//        gr.viewGrades();
+//        
+//      
+//        Grades gr1 = new Grades();
+//        gr1.addGrades(1002, "John", 2.0, 1.0, 1.0, 1.0);
+//        gr1.viewGrades();
+
+      Students students = new Students();
+        students.genGrade();
+
+
+
+
+//Products products = new Products();
+//         Product product = products.inputProductDetails();
+//         product.viewProduct();
+
+//EmployeeManager manager = new EmployeeManager();
+//        manager.Salaries();
+
+// Accounts accounts = new Accounts();
+//        accounts.createAccounts();
+//        accounts.displayAccounts();
+}
     
 }
